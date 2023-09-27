@@ -13,17 +13,17 @@ function createFeatures(earthquakeData) {
   function getColor(depth) {
 
     if (depth < 10) {
-      return "Red";
+      return "lightblue";
     } else if (10 < depth & depth <= 30) {
-        return "Green";
+        return "yellow";
     } else if (30 < depth & depth <= 50) {
-        return "GoldenRod";
+        return "orange";
     } else if (50 < depth & depth <= 70) {
-        return "Orange";
+        return "green";
     } else if (70 < depth & depth <= 90) {
-        return "DarkOrange";    
+        return "purple";    
     } else {
-      return "Black";
+      return "red";
     };
 }
 
